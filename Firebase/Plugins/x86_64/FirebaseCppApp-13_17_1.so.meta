@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: b35da7824009441780071110ce0b4137
+guid: 364012ec69294848b12bd8cc8e4410d1
 labels:
 - gvh
-- gvh_version-14.0.0
-- gvhp_exportpath-Plugins/tvOS/Firebase/libFirebaseCppApp.xcframework
+- gvh_version-13.17.1
+- gvhp_exportpath-Firebase/Plugins/x86_64/FirebaseCppApp-13_17_1.so
 timeCreated: 1480838400
 PluginImporter:
   serializedVersion: 1
@@ -19,7 +19,7 @@ PluginImporter:
       enabled: 0
       settings: {}
     Editor:
-      enabled: 0
+      enabled: 1
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
@@ -29,13 +29,13 @@ PluginImporter:
       settings:
         CPU: None
     Linux64:
-      enabled: 0
+      enabled: 1
       settings:
-        CPU: None
+        CPU: x86_64
     LinuxUniversal:
-      enabled: 0
+      enabled: 1
       settings:
-        CPU: None
+        CPU: AnyCPU
     OSXIntel:
       enabled: 0
       settings:
@@ -72,7 +72,7 @@ PluginImporter:
         CompileFlags:
         FrameworkDependencies:
     tvOS:
-      enabled: 1
+      enabled: 0
       settings:
         CompileFlags:
         FrameworkDependencies:
